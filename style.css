@@ -85,7 +85,7 @@ nav {
 .mobile-search-box{
   height: 39px;
   width: 40px;
-  background: white;
+  background: transparent;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -95,7 +95,7 @@ nav {
 
 .mobile-search-box i{
   font-size: 18px;
-  color: #b9b0b0;
+  color: #e4daff
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -922,7 +922,6 @@ margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.3px solid rgb(235, 95, 255);
     cursor: pointer;
   }
 
@@ -958,8 +957,9 @@ margin-top: 25px;
   }
 
   .mobile-search-box{
-    height: 35px;
-    width: 36px;
+    height: 31px;
+    width: 31px;
+
   }
 
   .nav-user-icon img{
