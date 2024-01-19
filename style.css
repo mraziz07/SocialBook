@@ -739,6 +739,8 @@ nav {
 
 .left-profile {
   flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
 }
 
 .right-profile {
@@ -824,6 +826,10 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 5px;
+}
+
+.hide{
+ display: none; 
 }
 
 .photos img {

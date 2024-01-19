@@ -195,3 +195,46 @@
   }
 }
 
+/* --------------------------------------------------- */
+
+@media (max-width: 760px) {
+  .profile-info{
+    flex-direction: column;
+  }
+
+  .friends-and-photos{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .friends-and-photos > div {
+    flex-basis: 49%;
+  }
+
+.hide{
+  display: block;
+}
+
+.write-post-container{
+  margin-top: 20px;
+}
+}
+
+
+@media (max-width: 630px) {
+  .friends-and-photos {
+    flex-direction: column;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .photos {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .friends-section {
+    padding: 10px 15px;
+  }
+}
